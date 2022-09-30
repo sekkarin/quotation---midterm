@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif Thai", sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: burlywood;
+  /* width: 100%; */
+  margin-left: 500px;
+  margin-right: 500px;
+  width: 250px;
+
+ 
+  
+}
+
+.container {
+  width: 550px;
+  height: 450px;
+}
+.over-on{
+  background-color: red;
+  scale: 1.1;
+  
+}
+.over-out{
+  background-color: white;
+  /* scale: 1.1; */
+}
+
+.text-area {
+  background-color: azure;
+  padding: 30px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.btn {
+  background: blue;
+  color: white;
+  padding: 15px;
+  margin-top: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
